@@ -16,7 +16,7 @@ nav li a {
 	color: #fff;
 	text-decoration: none;
 	border: 2px solid #fff;
-	transition: all .5s ease 0s;
+	transition: all .5s ease .2s;
 }
 
 nav li a:hover{
@@ -97,6 +97,31 @@ img {
 	transform: rotate(180deg);
 }
 
+.supra {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.supra:hover {
+	transform: rotate(180deg);
+}
+
+.deathwish{
+	width: 60%;
+	margin: 0 auto;
+	padding: 5%;
+}
+
+.deathwish:hover {
+	transform: skew(15deg, 5deg);
+	z-index: 0;
+}
+
+
+
+@media only screen and (max-width: 40em) { 
+	nav li {margin: 1%;}
+}
 
 
 
