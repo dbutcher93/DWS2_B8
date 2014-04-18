@@ -44,7 +44,6 @@ header {
 .image {
 	width: 80%;
 	position: relative;
-	padding-bottom: 5%;
 	margin: 0 auto;
 }
 
@@ -54,6 +53,8 @@ img {
 
 .image:hover {
 	transform: scale(1.1);
+	
+	box-shadow: 1px 5px 10px #000;
 }
 
 .caption {
